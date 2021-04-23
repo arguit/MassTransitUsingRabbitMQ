@@ -1,20 +1,11 @@
 ﻿using MassTransit;
-using MassTransit.RabbitMqTransport;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
 
 namespace ServiceA
 {
     class Program
-    {
-        public static RabbitMqHostSettings RabbitMqHostSettings { get; set; }
-
+    { 
         static void Main(string[] args) =>
             CreateHostBuilder(args).Build().Run();
 

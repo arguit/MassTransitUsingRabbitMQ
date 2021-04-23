@@ -1,6 +1,5 @@
 ﻿using Consumers;
 using MassTransit;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 namespace ServiceB
