@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace ServiceA
+namespace MassTransitUsingRabbitMQ.ServiceA
 {
     class Program
     { 
@@ -22,6 +22,7 @@ namespace ServiceA
                     });
 
                     services.AddMassTransitHostedService();
+
                     services.AddHostedService<Worker>();
                 });
     }

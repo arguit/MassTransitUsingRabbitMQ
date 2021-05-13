@@ -1,8 +1,8 @@
-﻿using Consumers;
+﻿using MassTransitUsingRabbitMQ.Consumers;
 using MassTransit;
 using Microsoft.Extensions.Hosting;
 
-namespace ServiceB
+namespace MassTransitUsingRabbitMQ.ServiceB
 {
     class Program
     {
@@ -13,11 +13,13 @@ namespace ServiceB
                     services.AddMassTransit(configure =>
                     {
                         configure.AddConsumer<MessageConsumer>();
+                        
                         configure.UsingRabbitMq((busRegistrationContext, rabbitMqBusFactoryConfigurator) =>
                         {                            
                             rabbitMqBusFactoryConfigurator.ConfigureEndpoints(busRegistrationContext);
                         });
                     });
+
                     services.AddMassTransitHostedService();                    
                 })
                .Build()

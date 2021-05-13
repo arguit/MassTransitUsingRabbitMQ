@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj": {}
+    "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj": {
+    "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\arguit\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\obj\\",
+        "projectPath": "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\František Záhora\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\arguit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\František Záhora\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\nuget\\_source": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/chyronhego/_packaging/chyronhego/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -58,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

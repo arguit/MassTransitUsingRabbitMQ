@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Service A",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ServiceA/bin/Debug/net5.0/ServiceA.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ServiceA",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Service B",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ServiceB/bin/Debug/net5.0/ServiceB.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ServiceB",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Services A & B",
+            "configurations": [
+                "Service A",
+                "Service B"
+            ]
+        }
+    ]
+}

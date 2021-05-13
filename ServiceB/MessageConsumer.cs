@@ -1,9 +1,9 @@
-﻿using Contracts;
+﻿using MassTransitUsingRabbitMQ.Contracts;
 using MassTransit;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace Consumers
+namespace MassTransitUsingRabbitMQ.Consumers
 {
     public class MessageConsumer
         : IConsumer<Message>

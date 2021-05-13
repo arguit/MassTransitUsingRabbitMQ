@@ -9,3 +9,15 @@ D:\Repos\GitHub\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.cs
 D:\Repos\GitHub\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.dll
 D:\Repos\GitHub\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\ref\Contracts.dll
 D:\Repos\GitHub\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.pdb
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\bin\Debug\net5.0\Contracts.deps.json
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\bin\Debug\net5.0\Contracts.dll
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\bin\Debug\net5.0\Contracts.pdb
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.dll
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.pdb
+C:\repos\arguit\MassTransitUsingRabbitMQ\Contracts\obj\Debug\net5.0\Contracts.csprojAssemblyReference.cache

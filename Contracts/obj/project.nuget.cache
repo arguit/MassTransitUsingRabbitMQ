@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rY+eLnlvKimjnzQ1lnP9gV2aa58ymhjjBxgRuDMJOPyjkuJ2JjruRxH3YU5YGuPgtyjmhsH23NDVrzXaRPdhVQ==",
+  "dgSpecHash": "7kWDmqbXRbbsRy0r00tMlfbtHN6X8YFp91SlpuMFUW674v44QGlhI/aQOLCWL/Ln2ln/2aFhYaxBQCFdn7YHkQ==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\GitHub\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\repos\\arguit\\MassTransitUsingRabbitMQ\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
